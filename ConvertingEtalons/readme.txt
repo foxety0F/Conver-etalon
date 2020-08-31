@@ -1,5 +1,3 @@
-Sber Testing - Prepare Etalons
-
 Author of this application :
 * foxety0f
 
