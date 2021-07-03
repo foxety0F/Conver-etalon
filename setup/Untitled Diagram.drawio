@@ -1,1 +1,295 @@
-<mxfile host="app.diagrams.net" modified="2021-07-03T20:27:49.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.208" version="14.4.7" etag="EgMMHdCRJX7zzt-HtaRr" type="github"><diagram id="Gt7PxgHoGB9DskQfIXFc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-03T21:15:12.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.208" etag="AY7Om5Ezd1nkv_6CHz6K" version="14.4.7" type="github">
+  <diagram id="Gt7PxgHoGB9DskQfIXFc" name="Page-1">
+    <mxGraphModel dx="1381" dy="2428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m29FhQC27UfApbSztBak-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-3" target="m29FhQC27UfApbSztBak-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-3" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-4" target="m29FhQC27UfApbSztBak-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-4" target="m29FhQC27UfApbSztBak-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-4" value="Все DP запущены?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="432.5" y="130" width="105" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-6" value="Ждать пока все DP завершатся" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-8" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="150" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-9" target="m29FhQC27UfApbSztBak-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-9" target="m29FhQC27UfApbSztBak-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-9" value="Все DP типа 1 запущены?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-11" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-13" target="m29FhQC27UfApbSztBak-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-13" target="m29FhQC27UfApbSztBak-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="325" />
+              <mxPoint x="640" y="610" />
+              <mxPoint x="485" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-13" value="DP был уже запущен?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-15" target="m29FhQC27UfApbSztBak-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="775" />
+              <mxPoint x="120" y="775" />
+              <mxPoint x="120" y="-100" />
+              <mxPoint x="485" y="-100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-15" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1000" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-16" value="Запустить DP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="970" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-18" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-19" value="Пропустить" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-21" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="300" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-24" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-29" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="360" y="270" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-30" value="Цикл по всем DP первого типа" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="250" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-33" target="m29FhQC27UfApbSztBak-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-33" target="m29FhQC27UfApbSztBak-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-33" value="Все DP типа 2 запущены для текущей очереди?" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-34" target="m29FhQC27UfApbSztBak-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-34" target="m29FhQC27UfApbSztBak-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-34" value="DP был уже запущен?" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="870" y="400" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-36" value="Пропустить" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="730" y="460" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-39" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="315" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-40" target="m29FhQC27UfApbSztBak-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-40" target="m29FhQC27UfApbSztBak-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-40" value="Все зависимые DP выполнены?" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="940" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-41" target="m29FhQC27UfApbSztBak-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-41" target="m29FhQC27UfApbSztBak-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-41" value="Все выполнены успешно?" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="800" y="595" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-42" value="Симулировать запуск, пометить как упавший" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="940" y="767" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-47" value="Пропустить" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="595" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-49" target="m29FhQC27UfApbSztBak-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-49" target="m29FhQC27UfApbSztBak-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="55" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="610" y="55" />
+              <mxPoint x="610" y="-45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-49" value="Очередь заполнена?" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="425" y="40" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-51" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="90" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-53" target="m29FhQC27UfApbSztBak-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-53" value="Увеличить очередь на 1" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="400" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-56" target="m29FhQC27UfApbSztBak-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-56" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="700" y="380" width="470" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-57" value="Цикл по всем DP второго типа" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="715" y="355" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-58" target="m29FhQC27UfApbSztBak-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1520" y="615" />
+              <mxPoint x="1520" y="-100" />
+              <mxPoint x="485" y="-100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-58" target="m29FhQC27UfApbSztBak-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-58" value="Очередь заполнена?" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="600" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-61" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="30" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-62" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1465" y="590" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-63" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="220" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-64" target="m29FhQC27UfApbSztBak-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1590" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-64" target="m29FhQC27UfApbSztBak-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-64" value="Все DP типа 3 запущены?" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="707" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-67" target="m29FhQC27UfApbSztBak-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-67" target="m29FhQC27UfApbSztBak-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-67" value="DP был уже запущен?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="920" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-68" value="Пропустить" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="980" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-69" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1300" y="910" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-70" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="910" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-71" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="880" width="300" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-72" value="Цикл по всем DP третьего типа" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="860" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-77" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="700" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-80" target="m29FhQC27UfApbSztBak-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1910" y="769" />
+              <mxPoint x="1910" y="-100" />
+              <mxPoint x="485" y="-100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-80" target="m29FhQC27UfApbSztBak-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-80" value="Есть DP типа 4 для текущей очереди?" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="752" width="120" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-82" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="700" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-84" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1830" y="740" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-86" target="m29FhQC27UfApbSztBak-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m29FhQC27UfApbSztBak-86" target="m29FhQC27UfApbSztBak-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="935" />
+              <mxPoint x="1460" y="1080" />
+              <mxPoint x="920" y="1080" />
+              <mxPoint x="920" y="935" />
+              <mxPoint x="485" y="935" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-86" value="DP был уже запущен?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1545" y="920" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-87" value="Пропустить" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1615" y="980" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-88" value="Да" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1655" y="910" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-89" value="Нет" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="910" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-90" value="" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;fillColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="910" width="300" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-91" value="Цикл по всем DP четвертого типа" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1475" y="860" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m29FhQC27UfApbSztBak-94" value="&amp;nbsp; &amp;nbsp; 1. Первый тип - без зависимостей и в первой очереди. Это означает, что данные DP имеют приоритет запуска и никакие DP не могут стартовать, пока все DP из первой очереди не отбегут&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; 2. Второй тип - с зависимостями в любой очереди. Эти DP имеют 2 приоритет и могут запускаться только, если запущены все DP первого типа и все DP, от которых зависит DP второго типа успешно завершены. Однако, стартуют только те, у которых соответствующая очередь.&lt;br&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp; 3. Третий тип - без зависимостей в любой очереди, кроме первой и флагом LIMITATION=&quot;N&quot;. Эти DP могут стартовать в любое время после выполнения DP без зависимостей из первой очереди&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; 4. Четвертый тип - без зависимостей и флагом LIMITATION=&quot;Y&quot;. Эти DP стартуют только во время своей очереди.&lt;/span&gt;&lt;/div&gt;" style="shape=ext;rounded=1;html=1;whiteSpace=wrap;dashed=1;dashPattern=1 4;fillColor=none;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-80" width="620" height="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
